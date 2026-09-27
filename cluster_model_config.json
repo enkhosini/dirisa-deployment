@@ -1,0 +1,21 @@
+{
+  "model_type": "StandardScaler + KMeans",
+  "k": 4,
+  "random_state": 42,
+  "feature_cols": [
+    "youth_gap_2026",
+    "youth_registration_rate_2026",
+    "youth_registration_change_pct",
+    "turnout_change_2016_2021_pp",
+    "registered_growth_2016_2021_pct"
+  ],
+  "silhouette_score": 0.3709,
+  "cluster_id_to_name": {
+    "0": "High gap / Stable",
+    "1": "Low gap / Widening",
+    "2": "High gap / Stable",
+    "3": "High gap / Widening"
+  },
+  "n_clustered": 24,
+  "n_insufficient_data": 9
+}
